@@ -1,0 +1,13 @@
+/* Simple CSS based on typical JavaFX styling */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-background-color: #f4f4f4;
+}
+.button {
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+}
+.btn-primary {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+}

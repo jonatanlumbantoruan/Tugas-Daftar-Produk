@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+import javafx.scene.control.*
+import javafx.scene.layout.*
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="kelas.controller.DetailController" spacing="15" style="-fx-padding: 20;">
+    <Label text="Detail Produk" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <GridPane vgap="10" hgap="10">
+        <Label text="Kode Produk:" GridPane.columnIndex="0" GridPane.rowIndex="0" style="-fx-font-weight: bold;"/>
+        <Label fx:id="lblKode" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        
+        <Label text="Nama Produk:" GridPane.columnIndex="0" GridPane.rowIndex="1" style="-fx-font-weight: bold;"/>
+        <Label fx:id="lblNama" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        
+        <Label text="Kategori:" GridPane.columnIndex="0" GridPane.rowIndex="2" style="-fx-font-weight: bold;"/>
+        <Label fx:id="lblKategori" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        
+        <Label text="Harga:" GridPane.columnIndex="0" GridPane.rowIndex="3" style="-fx-font-weight: bold;"/>
+        <Label fx:id="lblHarga" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    </GridPane>
+    <Button text="Kembali" onAction="#onKembali"/>
+</VBox>
